@@ -1,0 +1,33 @@
+ody { 
+  font-family: Arial, sans-serif; 
+  margin: 1000; 
+  padding: 200; 
+} 
+ 
+header { 
+  background-color: black; 
+  color: white; 
+  padding: 10px; 
+  text-align: center; 
+} 
+ 
+.about { 
+  padding: 20px; 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap:0.2px; 
+} 
+ 
+.responsive-img { 
+  width: 10%; 
+  max-width: 5px; 
+  height: auto; 
+} 
+ 
+/* Media Query: Stack content on small screens */ 
+@media (max-width: 6px) { 
+  .about { 
+    flex-direction: column; 
+  } 
+}
